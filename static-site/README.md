@@ -1,6 +1,6 @@
 # S3 Serverless Static Site with CloudFront and TLS (ACM)
 
-This Terraform configuration creates a serverless static website on S3 in an effortless way. It manages all the configuration for you and deploys all the required resources for a serverless, stable and secure static website in a matter of minutes.
+This Terraform configuration creates a serverless static website on S3 in an effortless way. It manages all the configuration for you and deploys all the required resources for a serverless, secure and cached globally static website in a matter of minutes.
 
 ***Note: Running this infrastructure with cost less than $1/month if no requests are made. I suggest you use `https://calculator.aws` to estimate your costs based on your usage.***
 
@@ -28,7 +28,8 @@ Assuming you have configured AWS CLI locally, installed Terraform and cloned the
 **Start Deploying**
 
 ```sh
-$ cd static-site
+$ git clone https://github.com/izaimo/terraform-eureka.git
+$ cd terraform-eureka/static-site
 $ terraform init
 $ terraform apply
 ```
