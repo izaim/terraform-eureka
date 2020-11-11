@@ -8,7 +8,7 @@ Templates will be continously updated and new ones will be added.
 
 | SERIE | DIR |
 | ------ | ------ |
-| S3 Static Website with SSL/TLS | [terraform-eureka/tree/main/static-site][PlDb] |
+| S3 Static Website with SSL/TLS | [[terraform-eureka/static-site](https://github.com/izaimo/terraform-eureka/tree/main/static-site)][PlDb] |
 | Stay Tuned! | [terraform-eureka/tree/main/][PlGh] |
 | Stay Tuned! | [terraform-eureka/tree/main/][PlGd] |
 
